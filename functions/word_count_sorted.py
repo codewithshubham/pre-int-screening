@@ -1,6 +1,6 @@
 def check_word_count(words):
 
-    word_split = words.split(" ")   # Generate individual words and store it in list
+    word_split = words.lower().split(" ")   # Generate individual words and store it in list
     word_frequency = {}         
 
     for word in sorted(word_split):
